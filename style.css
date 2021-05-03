@@ -1,0 +1,44 @@
+*{
+	box-sizing: border box;
+}
+.title{
+	text-align: center;
+	border-bottom: 50px solid white;
+	font-family: times
+}
+div{
+	width: 30%;
+	border: 3px solid black;
+	float: left;
+	padding-top: 0;
+	margin: 10px;
+	overflow: hidden;
+	background-color: lightgray;
+
+
+}
+div > p{
+	border-top:0;
+	border: 2px solid black;
+	text-align: center;
+	width:30%;
+	padding: 0;
+	margin: auto;
+	position: relative;
+	left: 165px;
+	bottom: 2px;
+
+		
+}
+#p2 {
+	color:white;
+	background-color: red;
+
+}
+#p1{
+	background-color: pink;
+
+}
+#p3{
+	background-color: lightyellow;
+}
